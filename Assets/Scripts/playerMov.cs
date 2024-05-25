@@ -169,15 +169,7 @@ public class playerMov : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (collision.tag == "death")
-        {
-            SceneManager.LoadScene("deathScene");
-        }
-
-        //else if (collision.tag == "death2")
-        //{
-        //    SceneManager.LoadScene("deathScene2");
-        //}
+       
     }
 
 }
